@@ -48,13 +48,90 @@
 // const lowcaseString1 = "hello";
 // let vowelNum = 0;
 // let consNum = 0;
+// const vowels = ["a", "e", "i", "o", "u"];
 
 // for (let i = 0; i < lowcaseString1.length; i++) {
-//   if (lowcaseString1[i] === "e") {
-//     vowelNum++;
+//   if (vowels.includes(lowcaseString1[i])) {
+//     vowelNum += 1;
+//   } else {
+//     consNum += 1;
 //   }
 // }
-// I don't know. ¯\_(ツ)_/¯
+
+// console.log(
+//   `${lowcaseString1} has ${vowelNum} vowels and ${consNum} consonants.`
+// );
+// printed = hello has 2 vowels and 3 consonants.
+
+// const lowcaseString2 = "ukelele";
+// let vowelNum = 0;
+// let consNum = 0;
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < lowcaseString2.length; i++) {
+//   if (vowels.includes(lowcaseString2[i])) {
+//     vowelNum += 1;
+//   } else {
+//     consNum += 1;
+//   }
+// }
+
+// console.log(
+//   `${lowcaseString2} has ${vowelNum} vowels and ${consNum} consonants.`
+// );
+// printed = ukelele has 4 vowels and 3 consonants.
+
+// const lowcaseString3 = "awesome";
+// let vowelNum = 0;
+// let consNum = 0;
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < lowcaseString3.length; i++) {
+//   if (vowels.includes(lowcaseString3[i])) {
+//     vowelNum += 1;
+//   } else {
+//     consNum += 1;
+//   }
+// }
+// console.log(
+//   `${lowcaseString3} has ${vowelNum} vowels and ${consNum} consonants.`
+// );
+// printed = awesome has 4 vowels and 3 consonants.
+
+// const lowcaseString4 = "onomonopia";
+// let vowelNum = 0;
+// let consNum = 0;
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < lowcaseString4.length; i++) {
+//   if (vowels.includes(lowcaseString4[i])) {
+//     vowelNum += 1;
+//   } else {
+//     consNum += 1;
+//   }
+// }
+// console.log(
+//   `${lowcaseString4} has ${vowelNum} vowels and ${consNum} consonants.`
+// );
+// printed = onomonopia has 6 vowels and 4 consonants.
+
+// const lowcaseString5 = "textbook";
+// let vowelNum = 0;
+// let consNum = 0;
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < lowcaseString5.length; i++) {
+//   if (vowels.includes(lowcaseString5[i])) {
+//     vowelNum += 1;
+//   } else {
+//     consNum += 1;
+//   }
+// }
+// console.log(
+//   `${lowcaseString5} has ${vowelNum} vowels and ${consNum} consonants.`
+// );
+
+// printed = textbook has 3 vowels and 5 consonants.
 
 //Reverse Array:
 //Create a series of Arrays from the chart in Workshop 14.
@@ -95,16 +172,14 @@
 // For each multiple of 5, print "Buzz" instead of the number.
 // For numbers that are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
-// let numToCheck = Math.floor(Math.random() * 10) + 1;
-// while (numToCheck !== 5) {
-//   console.log("still checking...");
-//   numToCheck = Math.floor(Math.random() * 10) + 1;
+// for (i = 0; i <= 100; i++) {
+//   if ([i] % 15 == 0) {
+//     console.log("FizzBuzz");
+//   } else if ([i] % 3 == 0) {
+//     console.log("Fizz");
+//   } else if ([i] % 5 == 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
 // }
-// console.log("5 has arrived!");
-
-for (let i = 1; i <= 100; i++) {
-  while ([i] % 3 >= 3) {
-    console.log("Fizz");
-  }
-}
-//I give up.
